@@ -23,7 +23,7 @@ function calcularTotal() {
             break;
     }
 
-    var tipoPan = document.getElementById("tipoPan").value;
+    var tipoPan = document.getElementById("pan").value;
 
     if (tipoPan == "clasico") {
         total += 0;
